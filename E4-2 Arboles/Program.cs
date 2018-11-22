@@ -10,6 +10,13 @@ namespace E4_2_Arboles
     {
         static void Main(string[] args)
         {
+            Arbol Arbol= new Arbol();//llamda a clase arbol
+            //llamada a metodos
+            Arbol.ArbolA();
+            Console.Clear();
+            Arbol.ArbolB();
+            Console.Clear();
+            Arbol.ArbolC();
         }
     }
 }
